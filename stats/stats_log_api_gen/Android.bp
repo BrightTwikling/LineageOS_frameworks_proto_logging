@@ -306,6 +306,7 @@ genrule {
 
 cc_library {
     name: "libstatslog",
+    recovery_available: true,
     host_supported: true,
     generated_sources: [
         "statslog.cpp",
